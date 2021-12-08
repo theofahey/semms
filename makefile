@@ -1,4 +1,4 @@
-all: control.o write.o
+all: semap.o writing.o
 	gcc -o control semap.o
 	gcc -o write writing.o
 semap.o: semap.c
